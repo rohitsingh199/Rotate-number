@@ -3,11 +3,11 @@ import java.util.*;
    public class Main{
    
    public static void main(String[] args) {
-     // write your code here  
+     
      Scanner scn=new Scanner(System.in);
      int n=scn.nextInt();
      int k=scn.nextInt();
-     
+     //putting the value of n in temp
       int temp=n;
       int nod=0;
       while(temp>0){
@@ -29,9 +29,9 @@ import java.util.*;
               mult =mult*10;
           }
       }
-      int q=n/div;
+      int t=n/div;
       int r=n%div;
-      int rot=r*mult+q;
+      int rot=r*mult+t;
       System.out.println(rot);
      
     }
