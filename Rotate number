@@ -8,10 +8,10 @@ import java.util.*;
      int n=scn.nextInt();
      int k=scn.nextInt();
      
-      int temp=n;
+      int ram=n;
       int nod=0;
-      while(temp>0){
-          temp=temp/10;
+      while(ram>0){
+          ram=ram/10;
           nod++;
           
       }
